@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+
+# Logs
+log/*
+*.log
+
+# Temporary files
+tmp/*
+!tmp/pids/.keep
+
+# Development specific
+.env
+.env.*
+config/master.key
+config/credentials/*.key
+
+# Dependencies
+node_modules
+/public/packs
+/public/packs-test
+/public/assets
+.bundle
+
+# Development and test artifacts
+.byebug_history
+.rspec
+coverage/
+spec/tmp
+.DS_Store
+*.swp
+*~
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+
+# Documentation
+doc/
+*.md
+README.md
+
+# Docker
+Dockerfile
+docker-compose*.yml 
